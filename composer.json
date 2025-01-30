@@ -1,0 +1,20 @@
+{
+	"name": "slendium/markup-compositor",
+	"description": "A library for generating HTML-like documents based on a tree of UI components.",
+	"type": "library",
+	"require-dev": {
+		"phpstan/phpstan": "^2.1"
+	},
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"Slendium\\MarkupCompositor\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "C. Fahner",
+			"email": "cfahner.git.ixuk9phi@slendium.org"
+		}
+	]
+}
